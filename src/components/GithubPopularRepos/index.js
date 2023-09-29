@@ -37,6 +37,7 @@ class GithubPopularRepos extends Component {
   }
 
   reposData = async () => {
+    this.setState({apiStatus: apiStatusConstants.inProgress})
     const {activeFilterId} = this.state
     const apiUrl = `https://apis.ccbp.in/popular-repos?language=${activeFilterId}`
     const response = await fetch(apiUrl)
