@@ -1,0 +1,20 @@
+.filter-item {
+  list-style-type: none;
+}
+.filter-btn {
+  color: #0f172a;
+  background: transparent;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  outline: none;
+  border: 1px solid transparent;
+  cursor: pointer;
+  border-radius: 22px;
+  padding: 4px 16px;
+  margin-right: 12px;
+}
+.active {
+  color: #0284c7;
+  border-color: #0284c7;
+}
